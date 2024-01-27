@@ -29,4 +29,5 @@ Segue a documentação da api [(https://developer.github.com/v3/)](https://swapi
 - Sinta-se à vontade para registrar um problema por erros, sugestões ou solicitações de recursos..
 
 ### Device:heavy_check_mark:
-![image](https://github.com/luana-barbosa/challenge-alpha/assets/64818568/51e8e804-da27-418c-8845-3a60524e9ca0)
+![Captura de tela 2024-01-26 200309](https://github.com/luana-barbosa/alpha-challenge/assets/64818568/d89726ef-961a-43ad-b7fa-602bd791ce86)
+
