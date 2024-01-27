@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.luanabarbosa.starswars.ui.splash.SplashFragment"
+        android:label="StartFragment"
+        app:launchSingleTop="true"
+        tools:layout="@layout/splash_fragment">
+
+        <action
+            android:id="@+id/action_splashFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.luanabarbosa.starswars.ui.home.HomeFragment"
+        android:label="HomeFragment"
+        app:launchSingleTop="true"
+        tools:layout="@layout/home_fragment">
+    </fragment>
+
+    <fragment
+        android:id="@+id/peopleFragment"
+        android:name="com.luanabarbosa.starswars.people.ui.PeopleFragment"
+        android:label="PeopleFragment"
+        app:launchSingleTop="true"
+        tools:layout="@layout/people_fragment">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/planetsFragment"
+        android:name="com.luanabarbosa.starswars.planets.ui.PlanetFragment"
+        android:label="PlanetsFragment"
+        app:launchSingleTop="true"
+        tools:layout="@layout/planets_fragment">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/filmsFragment"
+        android:name="com.luanabarbosa.starswars.films.ui.FilmsFragment"
+        android:label="FilmsFragment"
+        app:launchSingleTop="true"
+        app:popUpToInclusive="true"
+        tools:layout="@layout/films_fragment">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/peopleDetailsFragment"
+        android:name="com.luanabarbosa.starswars.people.ui.PeopleDetailsFragment"
+        android:label="PeopleDetailsFragment"
+        app:launchSingleTop="true"
+        tools:layout="@layout/details_fragment" />
+
+    <fragment
+        android:id="@+id/planetDetailsFragment"
+        android:name="com.luanabarbosa.starswars.planets.ui.PlanetsDetailsFragment"
+        android:label="PlanetDetailsFragment"
+        app:launchSingleTop="true"
+        tools:layout="@layout/details_fragment" />
+
+    <fragment
+        android:id="@+id/filmsDetailsFragment"
+        android:name="com.luanabarbosa.starswars.films.ui.FilmsDetailsFragment"
+        android:label="FilmsDetailsFragment"
+        app:launchSingleTop="true"
+        tools:layout="@layout/details_fragment" />
+
+</navigation>

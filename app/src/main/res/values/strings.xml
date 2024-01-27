@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Stars Wars Challenge</string>
+
+    //SPLASH
+    <string name="splash_title">Stars Wars</string>
+
+    //PEOPLE
+    <string name="people_details_tit_toolbar">CHARACTERS DETAILS</string>
+    <string name="people_tit_toolbar">CHARACTERS</string>
+    <string name="txt_birth">Birth Year: %1$s</string>
+    <string name="txt_height">Height: %1$s cm</string>
+    <string name="txt_mass">Mass: %1$s kg</string>
+    <string name="txt_gender">Gender: %1$s</string>
+    <string name="txt_hairColor">Hair Color: %1$s</string>
+    <string name="txt_skinColor">Skin Color: %1$s</string>
+
+    //FILMS
+    <string name="films_details_tit_toolbar">FILMS DETAILS</string>
+    <string name="films_tit_toolbar">FILMS</string>
+    <string name="txt_created">Date Created: %1$s</string>
+    <string name="txt_director">Director: %1$s </string>
+    <string name="txt_producer">Producer(s): %1$s </string>
+    <string name="txt_opening_crawl">Opening Crawl: %1$s</string>
+
+    //PLANETS
+    <string name="planets_details_tit_toolbar">PLANETS DETAILS</string>
+    <string name="planets_tit_toolbar">PLANETS</string>
+    <string name="txt_population">Population: %1$s</string>
+    <string name="txt_rotation">Rotation Period: %1$s days</string>
+    <string name="txt_orbital">Orbital Period: %1$s days</string>
+    <string name="txt_diameter">Diameter: %1$s km</string>
+    <string name="txt_terrain">Terrain: %1$s</string>
+    <string name="txt_climate">Climate: %1$s</string>
+
+    //ERROR
+
+    <string name="error_title">Unable to load. \n Check your internet and try again.</string>
+    <string name="error_subtitle">Try Again</string>
+    <string name="error_search">Oops, I did not find anything here.\n Want to try again?</string>
+
+</resources>
