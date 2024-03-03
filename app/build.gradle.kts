@@ -64,7 +64,7 @@ dependencies {
     implementation(Navigation.fragment)
     implementation(Navigation.ui)
 
-    implementation(Picasso.picasso)
+    implementation(Coil.coil)
 
     implementation(Retrofit.retrofit)
     implementation(Retrofit.gson)
@@ -75,6 +75,8 @@ dependencies {
     implementation(Lifecycle.livedata)
 
     implementation(Koin.android)
+    implementation(Koin.compose)
+    implementation(Koin.core)
 
     implementation(Coroutines.test)
     implementation(Coroutines.coroutines)
@@ -89,6 +91,16 @@ dependencies {
     implementation(Paging.runtime)
     implementation(Paging.paging)
 
+    implementation(Compose.activity)
+    implementation(Compose.navigation)
+    implementation(Compose.composeUI)
+    implementation(Compose.composeGraphics)
+    implementation(Compose.composePreview)
+    implementation(Compose.composeMaterial)
+
+    implementation(platform(Compose.composeBom))
+    androidTestImplementation(platform(Compose.composeBom))
+
     testImplementation(AndroidTest.junit)
     androidTestImplementation(AndroidTest.testExt)
     androidTestImplementation(AndroidTest.espresso)
@@ -96,16 +108,4 @@ dependencies {
     testImplementation(AndroidTest.mockk)
     testImplementation(AndroidTest.arch)
 
-    //Compose
-    implementation("androidx.activity:activity-compose:1.4.0")
-    implementation(platform("androidx.compose:compose-bom:2023.03.00"))
-    implementation("androidx.compose.ui:ui")
-    implementation("androidx.compose.ui:ui-graphics")
-    implementation("androidx.compose.ui:ui-tooling-preview")
-    implementation("androidx.compose.material3:material3")
-
-    androidTestImplementation(platform("androidx.compose:compose-bom:2023.03.00"))
-
-    debugImplementation("androidx.compose.ui:ui-tooling")
-    debugImplementation("androidx.compose.ui:ui-test-manifest")
 }

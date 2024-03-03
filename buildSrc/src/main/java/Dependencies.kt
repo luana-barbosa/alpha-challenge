@@ -5,10 +5,10 @@ object Navigation {
     const val ui = "androidx.navigation:navigation-ui-ktx:$version"
 }
 
-object Picasso {
-    private const val version = "2.8"
+object Coil {
+    private const val version = "2.3.0"
 
-    const val picasso = "com.squareup.picasso:picasso:$version"
+    const val coil = "io.coil-kt:coil-compose:$version"
 }
 
 object Retrofit {
@@ -32,9 +32,11 @@ object Lifecycle {
 }
 
 object Koin {
-    private const val version = "3.2.0"
+    private const val version = "3.5.3"
 
     const val android = "io.insert-koin:koin-android:$version"
+    const val compose = "io.insert-koin:koin-androidx-compose:$version"
+    const val core = "io.insert-koin:koin-core:$version"
 }
 
 object Coroutines {
@@ -103,3 +105,18 @@ object Paging {
     const val paging = "androidx.room:room-paging:${pagingVersion}"
 }
 
+object Compose {
+    private const val activityVersion = "1.4.0"
+    private const val navigationVersion = "2.7.6"
+    private const val bomVersion = "2023.03.00"
+
+    const val activity = "androidx.activity:activity-compose:${activityVersion}"
+    const val navigation = "androidx.navigation:navigation-compose:${navigationVersion}"
+    const val composeUI = "androidx.compose.ui:ui"
+    const val composeGraphics = "androidx.compose.ui:ui-graphics"
+    const val composePreview = "androidx.compose.ui:ui-tooling-preview"
+    const val composeMaterial = "androidx.compose.material3:material3"
+    const val composeTooling = "androidx.compose.ui:ui-tooling"
+    const val composeManifest = "androidx.compose.ui:ui-test-manifest"
+    const val composeBom = "androidx.compose:compose-bom:${bomVersion}"
+}
