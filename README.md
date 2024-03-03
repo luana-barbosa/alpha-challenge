@@ -1,8 +1,15 @@
-# StarWars Challenge
+# StarWars Challenge :low_brightness:
 
 Consiste na implementação de uma aplicação Android, utilizando a linguagem Kotlin, que consome a API pública do StarWarts (https://swapi.dev/api/), onde lista 3 categorias, sendo People, Films e Planets,
 é possivel fazer a busca de usuário por nome/titulo e visualização das informações de um item específico.
 Segue a documentação da api [(https://developer.github.com/v3/)](https://swapi.dev/documentation)
+
+## Work In Progress :hammer:
+
+- Estou realizando a migração de XML para compose
+- Implementação nas dependencias para utilizar compose
+- Alteração da lib de carregamento de Imagem, de Picasso para Coil
+- Alteração da navegação para o compose
 
 ### Especificações Técnicas :heavy_check_mark:
 
